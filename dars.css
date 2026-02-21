@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;/*ichidagi qiymatni yonma yon qillib beradi*/
+    flex-wrap: wrap;/*ekranimiz ga widht siqqanicha oladi va qolganini pastga tushuradi*/
+    justify-content: center;/*ellement larni olib beradi*/
+    gap: 50px;/*element larni orasini ochib beradi*/
+    margin-top: 50px;
+}
+
+main .cart{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    border-radius: 10px;
+}
+

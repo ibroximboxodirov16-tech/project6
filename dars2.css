@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    border: 2px solid blue;
+    background: wheat;
+
+    display: flex;/*yonmayon qilib beradi*/
+
+    /*justify-content widht boyisha joylash turadi*/
+    justify-content: center;/*ortaga olib beradi*/
+    justify-content: start;/*start elementlarni 1joyiga qoyib beradi*/
+    justify-content: end;/*elementlarni oxiriga qoyib beradi*/
+    justify-content: space-between;/*ikki tomondan yopish tirib qoyadi*/
+    justify-content: space-around;/*elementlarni orasidan joy tashab ikki tomong bolib beradi*/
+    justify-content: space-evenly;/*ikki tomon dan koproq joy tashaydi*/
+
+    /* aligin-items heigh boyicha  joylash tiradi */
+    align-items: start;/*heght boyicha eng tepada turadi*/
+    align-items: end;/*eng pastiga tushurib beradi*/
+    align-items: center;/*ortaga olib beradi*/
+
+}
+
+.cart{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: red;
+}
